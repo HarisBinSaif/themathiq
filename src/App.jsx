@@ -9,7 +9,7 @@ const Section = ({ id, title, eyebrow, children, tone = 'default' }) => (
       </div>
       <div className="section-body">{children}</div>
     </div>
-  </section>i
+  </section>
 );
 
 const ServicesList = ({ items }) => (
